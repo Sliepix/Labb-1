@@ -13,7 +13,7 @@ const express = require('express'),
   path = require('path')
 
 const app = express(),
-  port = process.env.PORT || 3000
+  port = process.env.PORT || 10000
   
   app.get('/', (_request, response) => {
     response.send({ hello: 'World' })
